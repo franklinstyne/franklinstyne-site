@@ -47,12 +47,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .brand .names{display:grid;line-height:1.1;gap:2px}
 .brand b{font-family:var(--display);font-size:22px;font-weight:700;letter-spacing:-.02em}
 .brand .names span{font-family:var(--mono);font-size:11.5px;color:var(--accent-text);letter-spacing:.14em;text-transform:uppercase;font-weight:600}
-.nav-links{display:flex;align-items:center;gap:26px;list-style:none;margin:0;padding:0;font-size:16.5px}
-.nav-links a{color:var(--fg);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
+.nav-links{display:flex;align-items:center;gap:22px;list-style:none;margin:0;padding:0;font-size:16.5px}
+.nav-links a{color:var(--fg);text-decoration:none;padding:6px 0;white-space:nowrap;border-bottom:2px solid transparent}
 .nav-links a:hover{border-bottom-color:var(--line)}
 .nav-links a[aria-current="page"]{border-bottom-color:var(--accent);font-weight:600}
 .menu-toggle{display:none;background:none;border:1.5px solid var(--fg);color:var(--fg);border-radius:10px;min-height:44px;padding:0 14px;font:600 15px var(--body);cursor:pointer}
-@media (max-width:940px){
+@media (max-width:1080px){
   .menu-toggle{display:inline-flex;align-items:center;gap:8px}
   .nav{flex-wrap:wrap}
   .nav-links{display:none;width:100%;flex-direction:column;align-items:stretch;gap:0;padding-bottom:14px}
@@ -272,3 +272,17 @@ footer{padding-block:36px;border-top:1px solid var(--line);font-size:15px;color:
 .prog .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
 .prog>.stack{align-content:start}
 @media (max-width:520px){.lede{font-size:17.5px}.hero h1{font-size:36px}.hero .proof{font-size:12.5px}}
+
+/* Resources: prompt cards */
+.level{display:grid;gap:8px;margin:56px 0 22px}
+.level:first-of-type{margin-top:0}
+.prompt .where{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.prompt-text{background:var(--bg);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;padding:16px 18px;margin:0;color:var(--fg);font-size:17px;line-height:1.55}
+.prompt-text .slot{color:var(--accent-text);font-weight:600}
+.prompt .why{font-size:16px}
+.prompt .actions{margin-top:auto}
+.copy-btn{min-height:44px;padding:0 18px;font-size:15px}
+.copy-btn.done{background:var(--fg);color:var(--bg)}
+.tips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.tips .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--accent-text)}
+@media (max-width:860px){.tips{grid-template-columns:1fr}}
