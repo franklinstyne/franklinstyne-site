@@ -203,7 +203,7 @@ footer{padding-block:36px;border-top:1px solid var(--line);font-size:15px;color:
 
 /* Certificate cards */
 .cert .thumb{display:grid;place-items:center;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:16px;aspect-ratio:4/3;overflow:hidden}
-.cert .thumb img{max-height:100%;width:auto;object-fit:contain;box-shadow:0 4px 14px rgba(10,30,28,.12)}
+.cert .thumb img{max-height:100%;max-width:100%;width:auto;object-fit:contain;box-shadow:0 4px 14px rgba(10,30,28,.12)}
 .cert .meta{font-family:var(--mono);font-size:13px;color:var(--muted)}
 .cert .actions{margin-top:auto}
 
