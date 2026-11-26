@@ -286,3 +286,4 @@ footer{padding-block:36px;border-top:1px solid var(--line);font-size:15px;color:
 .tips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
 .tips .k{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--accent-text)}
 @media (max-width:860px){.tips{grid-template-columns:1fr}}
+.infographic{margin:0}.infographic img{display:block;width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line)}
