@@ -61,11 +61,20 @@
     </div>
     <div class="split tip-video">
       <article class="card prompt">
-        <p class="label">Tip 01 &middot; Video &middot; 52 seconds</p>
-        <h3>Watch the hack in under a minute.</h3>
-        <p>The usual way, the smarter way, a worked Excel example and how to keep it safe. Then try this prompt with your AI tool, using dummy data first.</p>
-        <p class="prompt-text" id="t01">Build me a simple tool that runs offline on my computer. It should compare two Excel files, find the differences and save them in a new Excel report. Explain step by step how to run it.</p>
-        <div class="actions"><button class="btn btn-line copy-btn" type="button" data-copy="t01">Copy prompt</button></div>
+        <p class="label">Tip 01 &middot; Step by step</p>
+        <h3>Try it yourself: build your own Excel comparison app.</h3>
+        <ol class="howto">
+          <li>Open ChatGPT or Claude. The free version should work too.</li>
+          <li>Click the <strong>Work</strong> button at the top.</li>
+          <li>Type this prompt:
+            <p class="prompt-text" id="t01">Create a web application that runs locally on my computer, compares two Excel files, extracts the required information and generates a consolidated Excel report. Ensure all data processing takes place locally without sending any information to external servers.</p>
+            <div class="actions"><button class="btn btn-line copy-btn" type="button" data-copy="t01">Copy prompt</button></div>
+          </li>
+          <li>The AI creates a zip folder. Download it and unzip it.</li>
+          <li>Inside, you will find an HTML file. Double-click it and the web app opens in your browser, on your own computer.</li>
+          <li>Select your two Excel files and compare them. Use dummy data the first time.</li>
+          <li>To add features, change the prompt and ask again. Each time you get a new zip file, so repeat steps 4 and 5. You do not need any AI tool to run the app.</li>
+        </ol>
       </article>
       <figure class="lesson-video vertical-video">
         <video controls controlslist="nodownload noplaybackrate" disablepictureinpicture oncontextmenu="return false;" preload="none" playsinline poster="assets/videos/ai-privacy-hack.jpg" aria-label="Video: AI privacy hack, use AI to build tools that run on your own computer">
