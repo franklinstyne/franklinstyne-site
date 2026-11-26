@@ -289,3 +289,4 @@ footer{padding-block:36px;border-top:1px solid var(--line);font-size:15px;color:
 .infographic{margin:0}.infographic img{display:block;width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line)}
 .tip-video{margin-top:56px;align-items:center}.vertical-video{justify-self:center;width:100%;max-width:380px}.lesson-video.vertical-video video{aspect-ratio:9/16}
 .client-list li.linked{padding:0;border-color:var(--gold,#D9901A)}.client-list li.linked a{display:block;padding:6px 16px;color:#93590A;text-decoration:none;border-radius:999px}.client-list li.linked a::after{content:" \2197";font-weight:700}.client-list li.linked a:hover,.client-list li.linked a:focus-visible{background:#FBF1DE;text-decoration:underline}.list-note{margin-top:22px;font-size:15px}
+.grid-2>.span-2{grid-column:1/-1}
